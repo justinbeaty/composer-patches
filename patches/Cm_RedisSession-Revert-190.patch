@@ -1,0 +1,14 @@
+--- a/app/code/community/Cm/RedisSession/etc/config.xml
++++ b/app/code/community/Cm/RedisSession/etc/config.xml
+@@ -38,11 +38,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   </modules>
+   <global>
+     <models>
+-      <core_resource>
+-        <rewrite>
+-          <session>Cm_RedisSession_Model_Session</session>
+-        </rewrite>
+-      </core_resource>
+       <cm_redissession>
+         <class>Cm_RedisSession_Model</class>
+       </cm_redissession>
